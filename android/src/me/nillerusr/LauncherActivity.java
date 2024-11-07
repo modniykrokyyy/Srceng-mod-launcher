@@ -1,6 +1,6 @@
 package me.nillerusr;
 
-import com.valvesoftware.source.csso.R;
+import com.valvesoftware.source.csso-android.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -37,7 +37,7 @@ import me.nillerusr.UpdateService;
 import me.nillerusr.UpdateSystem;
 
 public class LauncherActivity extends Activity {
-    public static String MOD_NAME = "csso";
+    public static String MOD_NAME = "csso-android";
     public static String PKG_NAME;
 
     static EditText cmdArgs;
