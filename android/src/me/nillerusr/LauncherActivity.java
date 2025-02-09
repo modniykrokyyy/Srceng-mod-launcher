@@ -1,6 +1,6 @@
 package me.nillerusr;
 
-import com.valvesoftware.source.clientmod.R;
+import com.valvesoftware.source.csso.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -23,11 +23,15 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.regex.Pattern;
+
+import javax.swing.text.View;
+
 import android.content.pm.PackageManager;
 import android.view.*;
 import android.widget.*;
 import android.graphics.*;
 import android.widget.LinearLayout.LayoutParams;
+import javafx.scene.control.Button;
 import android.graphics.drawable.*;
 import me.nillerusr.ExtractAssets;
 import android.content.ComponentName;
@@ -37,7 +41,7 @@ import me.nillerusr.UpdateService;
 import me.nillerusr.UpdateSystem;
 
 public class LauncherActivity extends Activity {
-    public static String MOD_NAME = "cm";
+    public static String MOD_NAME = "csso";
     public static String PKG_NAME;
 
     static EditText cmdArgs;
